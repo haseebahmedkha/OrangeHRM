@@ -1,0 +1,7 @@
+2025-08-13 20:20:06,127 - INFO - ****** Test Started: Valid Login ******
+2025-08-13 20:20:06,128 - INFO - ===Navigating to the login page===
+2025-08-13 20:20:06,198 - INFO - ===Entering username===
+2025-08-13 20:20:06,280 - INFO - ===Entering Password===
+2025-08-13 20:20:06,355 - INFO - ===clicked login===
+2025-08-13 20:20:08,943 - INFO - ===Login successful and testcase passed
+2025-08-13 20:20:08,943 - INFO - Loggen test cases ended

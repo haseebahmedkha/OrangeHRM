@@ -1,0 +1,13 @@
+2025-07-21 20:11:24,290 - INFO - ****** Test Started: Valid Login ******
+2025-07-21 20:11:24,294 - INFO - ===Navigating to the login page===
+2025-07-21 20:11:24,567 - INFO - ===Entering username===
+2025-07-21 20:11:24,773 - INFO - ===Entering Password===
+2025-07-21 20:11:26,868 - INFO - ===clicked login===
+2025-07-21 20:11:26,880 - INFO - ===Login successful and testcase passed
+2025-07-21 20:11:26,881 - INFO - Loggen test cases ended
+2025-07-21 20:11:26,888 - INFO - ****** Test Started: DDT Login ******
+2025-07-21 20:11:26,889 - INFO - Testing with Username: Admin | Password: admin123 | Expected: Pass
+2025-07-21 20:11:29,394 - INFO - ****** Test Started: DDT Login ******
+2025-07-21 20:11:29,394 - INFO - Testing with Username: Admin | Password: wrong | Expected: Fail
+2025-07-21 20:11:31,463 - INFO - ****** Test Started: DDT Login ******
+2025-07-21 20:11:31,464 - INFO - Testing with Username: admin | Password: admin123 | Expected: Fail
