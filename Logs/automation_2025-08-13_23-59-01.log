@@ -1,0 +1,5 @@
+2025-08-13 23:59:01,133 - INFO - ****** Test Started: Dashboard Access ******
+2025-08-13 23:59:04,697 - INFO - Dashboard Page Loaded
+2025-08-13 23:59:04,720 - INFO - Dashboard Header Text: Dashboard
+2025-08-13 23:59:04,859 - INFO - visible Left Menu Items: ['Admin', 'PIM', 'Leave', 'Time', 'Recruitment', 'My Info', 'Performance', 'Dashboard', 'Directory', 'Maintenance', 'Claim', 'Buzz']
+2025-08-13 23:59:05,275 - INFO - ****** Test Ended: Dashboard Access ******

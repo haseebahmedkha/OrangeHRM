@@ -1,0 +1,11 @@
+2025-08-14 20:19:44,877 - INFO - ****** Test Started: Valid Login ******
+2025-08-14 20:19:44,877 - INFO - ===Navigating to the login page===
+2025-08-14 20:19:44,960 - INFO - ===Entering username===
+2025-08-14 20:19:45,053 - INFO - ===Entering Password===
+2025-08-14 20:19:45,178 - INFO - ===clicked login===
+2025-08-14 20:19:46,933 - INFO - ===Login successful and testcase passed
+2025-08-14 20:19:46,933 - INFO - Loggen test cases ended
+2025-08-14 20:19:46,938 - INFO - Setup Initialized
+2025-08-14 20:19:46,938 - INFO - login ddt testcase started
+2025-08-14 20:19:57,626 - INFO - Setup Initialized
+2025-08-14 20:19:57,626 - INFO - login ddt testcase started

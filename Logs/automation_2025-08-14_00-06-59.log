@@ -1,0 +1,7 @@
+2025-08-14 00:06:59,279 - INFO - ****** Test Started: Dashboard Access ******
+2025-08-14 00:07:03,519 - INFO - Dashboard Page Loaded
+2025-08-14 00:07:03,547 - INFO - Dashboard Header Text: Dashboard
+2025-08-14 00:07:03,727 - INFO - visible Left Menu Items: ['Admin', 'PIM', 'Leave', 'Time', 'Recruitment', 'My Info', 'Performance', 'Dashboard', 'Directory', 'Maintenance', 'Claim', 'Buzz']
+2025-08-14 00:07:03,862 - INFO - Expected Widgets: ['Time at Work', 'My Actions', 'Quick Launch']
+2025-08-14 00:07:03,862 - INFO - Dashboard validations passed
+2025-08-14 00:07:03,862 - INFO - ****** Test Ended: Dashboard Access ******
