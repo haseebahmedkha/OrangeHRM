@@ -37,6 +37,7 @@ class TestLogin_001:
         logger.info("===clicked login===")
 
         if "dashboard" in self.driver.current_url.lower():
+            time.sleep(6)
             logger.info("===Login successful and testcase passed")
             assert True
         else:

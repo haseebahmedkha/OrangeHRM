@@ -1,0 +1,9 @@
+2025-08-16 01:55:08,563 - INFO - ****** Starting Add Admin Test ******
+2025-08-16 01:55:08,960 - INFO - ===Entering username: admin===
+2025-08-16 01:55:09,468 - INFO - ===Entering password===
+2025-08-16 01:55:09,773 - INFO - ===Clicked login===
+2025-08-16 01:55:14,241 - INFO - ===Navigated to Admin===
+2025-08-16 01:55:18,001 - INFO - ===Clicked Add button===
+2025-08-16 01:55:24,887 - INFO - ===All fields entered successfully===
+2025-08-16 01:55:56,651 - INFO - === Test Passed ===
+2025-08-16 01:55:56,664 - INFO - ****** Starting Add Admin Test ******

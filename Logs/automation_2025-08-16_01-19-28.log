@@ -1,0 +1,8 @@
+2025-08-16 01:19:28,643 - INFO - ****** Valid Login ******
+2025-08-16 01:19:28,645 - INFO - ===Navigating to the login page===
+2025-08-16 01:19:28,796 - INFO - ===Entering username===
+2025-08-16 01:19:29,010 - INFO - ===Entering Password===
+2025-08-16 01:19:31,048 - INFO - ===clicked login===
+2025-08-16 01:19:31,048 - INFO - ****** Test Started for Add Admin ******
+2025-08-16 01:19:35,108 - INFO - ===Navigate To Admin===
+2025-08-16 01:19:37,722 - INFO - ===Click on Add button===
