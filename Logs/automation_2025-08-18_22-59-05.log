@@ -1,0 +1,12 @@
+2025-08-18 22:59:05,514 - INFO - ****** Starting Search Admin Test ******
+2025-08-18 22:59:05,515 - INFO - ------ getting username and password --------
+2025-08-18 22:59:05,518 - INFO - ------ successfully getting username and password --------
+2025-08-18 22:59:05,519 - INFO - ------ getting Login page Properties and Methods --------
+2025-08-18 22:59:05,845 - INFO - ------ Enter Username --------
+2025-08-18 22:59:06,145 - INFO - ------ Enter Password --------
+2025-08-18 22:59:06,291 - INFO - ------ succesfully Login  --------
+2025-08-18 22:59:18,550 - INFO - ------ succesfully click on Admin Button  --------
+2025-08-18 22:59:23,551 - INFO - ------ succesfully on search page --------
+2025-08-18 22:59:23,938 - INFO - ------ succesfully paste Admin on search field --------
+2025-08-18 22:59:28,386 - INFO - ------ succesfully Clicked on search Button --------
+2025-08-18 22:59:32,514 - INFO - ****** Starting Search Admin Test Passed ******

@@ -14,6 +14,8 @@ def setup(request):
 
     if browser == "chrome":
         driver = webdriver.Chrome()
+    elif browser == "firefox":
+        driver = webdriver.Firefox()
     else:
         raise Exception("Only Chrome browser is supported for now.")
 
