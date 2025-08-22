@@ -1,0 +1,6 @@
+2025-08-21 23:42:02,135 - INFO - ****** Starting Search Admin Test ******
+2025-08-21 23:42:03,360 - INFO - ------ succesfully Login  --------
+2025-08-21 23:42:17,578 - INFO - ****** Search Admin Test Passed ******
+2025-08-21 23:42:17,581 - INFO - ****** Starting Search by Role ******
+2025-08-21 23:42:17,581 - INFO - ---- setup Initiated -----
+2025-08-21 23:42:17,583 - INFO - ---- getting Username -----

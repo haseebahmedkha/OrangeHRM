@@ -1,0 +1,9 @@
+2025-08-22 11:16:33,265 - INFO - ****** Starting Search By Username Test ******
+2025-08-22 11:16:33,425 - INFO - --------- Enter Username --------------
+2025-08-22 11:16:33,791 - INFO - --------- Enter Password --------------
+2025-08-22 11:16:34,039 - INFO - ------ succesfully Login  --------
+2025-08-22 11:16:38,988 - INFO - --------- click on Admin Button --------------
+2025-08-22 11:16:41,989 - INFO - --------- Admin Page Now --------------
+2025-08-22 11:16:42,532 - INFO - --------- Pasting Admin on Field --------------
+2025-08-22 11:16:42,978 - INFO - --------- Clicking search button --------------
+2025-08-22 11:16:45,173 - INFO - ****** Search By Name Test Passed ******

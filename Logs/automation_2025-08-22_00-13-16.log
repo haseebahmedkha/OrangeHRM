@@ -1,0 +1,13 @@
+2025-08-22 00:13:16,543 - INFO - ****** Starting Search by Role ******
+2025-08-22 00:13:16,543 - INFO - ---- setup Initiated -----
+2025-08-22 00:13:16,545 - INFO - ---- getting Username -----
+2025-08-22 00:13:16,546 - INFO - ---- getting URL -----
+2025-08-22 00:13:17,075 - INFO - ---- Login Page Activated -----
+2025-08-22 00:13:17,927 - INFO - ---- Enter Username -----
+2025-08-22 00:13:18,172 - INFO - ---- Enter Password -----
+2025-08-22 00:13:18,257 - INFO - ---- Clicked Login Button -----
+2025-08-22 00:13:21,876 - INFO - ---- Click on Admin -----
+2025-08-22 00:13:23,877 - INFO - ---- Navigate to Search Page -----
+2025-08-22 00:13:26,179 - INFO - ---- Paste Admin  -----
+2025-08-22 00:13:26,269 - INFO - ---- Click on Search button -----
+2025-08-22 00:13:32,379 - INFO - ****** Search by user role testcase Passed ******

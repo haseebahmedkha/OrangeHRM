@@ -13,6 +13,7 @@ class AdminUserSearchpage:
     reset_button = (By.XPATH,"//button[normalize-space()='Reset']")
     result_table = (By.XPATH, "//div[@role='table']")
     result_rows = (By.XPATH, "//div[@role='rowgroup']/div[@role='row']")
+    employee_name_field = (By.XPATH,"//input[@placeholder='Type for hints...']")
 
     def __init__(self,driver):
         self.driver = driver
@@ -35,6 +36,13 @@ class AdminUserSearchpage:
             EC.element_to_be_clickable((By.XPATH, f"//div[@role='option']/span[text()='{role_text}']"))
         )
         option.click()
+
+    def enter_employee_name(self,enter_employee_name):
+        emp_field = self.wait.until(EC.presence_of_element_located(self.employee_name_field))
+        emp_field.clear()
+        emp_field.send_keys(enter_employee_name)
+        time.sleep(2)
+        return emp_field.send_keys()
 
     def click_on_search_button(self):
         self.wait.until(EC.element_to_be_clickable(self.search_button)).click()

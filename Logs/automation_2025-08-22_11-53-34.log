@@ -1,0 +1,13 @@
+2025-08-22 11:53:34,996 - INFO - ============= search with Employee name Test started =======================
+2025-08-22 11:53:34,997 - INFO - ---- getting Username -----
+2025-08-22 11:53:34,997 - INFO - ---- getting Password -----
+2025-08-22 11:53:34,997 - INFO - ========= Navigate to Login Page =================
+2025-08-22 11:53:34,997 - INFO - ---- Login Page Activated -----
+2025-08-22 11:53:35,074 - INFO - ---- Enter Username -----
+2025-08-22 11:53:35,138 - INFO - ---- Enter Password -----
+2025-08-22 11:53:35,193 - INFO - ---- Clicked Login Button -----
+2025-08-22 11:53:41,194 - INFO - ========= Navigate to Admin Page =================
+2025-08-22 11:53:43,184 - INFO - --------------- Clicked on Admin ----------------------
+2025-08-22 11:53:48,185 - INFO - ========= Navigate to Admin User Search Page =================
+2025-08-22 11:53:50,390 - INFO - ----------- Enter Employee Name --------------------------------
+2025-08-22 11:53:50,494 - INFO - ============= search with Employee name Test Passed =======================

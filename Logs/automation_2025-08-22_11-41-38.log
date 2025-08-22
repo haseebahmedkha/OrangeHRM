@@ -1,0 +1,9 @@
+2025-08-22 11:41:38,250 - INFO - ---- getting Username -----
+2025-08-22 11:41:38,251 - INFO - ---- getting Password -----
+2025-08-22 11:41:38,251 - INFO - ========= Navigate to Login Page =================
+2025-08-22 11:41:38,251 - INFO - ---- Login Page Activated -----
+2025-08-22 11:41:38,321 - INFO - ---- Enter Username -----
+2025-08-22 11:41:38,384 - INFO - ---- Enter Password -----
+2025-08-22 11:41:38,440 - INFO - ---- Clicked Login Button -----
+2025-08-22 11:41:44,440 - INFO - ========= Navigate to Admin Page =================
+2025-08-22 11:41:48,090 - INFO - --------------- Clicked on Admin ----------------------
