@@ -1,5 +1,5 @@
 import time
-
+from gc import enable
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -14,6 +14,9 @@ class AdminUserSearchpage:
     result_table = (By.XPATH, "//div[@role='table']")
     result_rows = (By.XPATH, "//div[@role='rowgroup']/div[@role='row']")
     employee_name_field = (By.XPATH,"//input[@placeholder='Type for hints...']")
+    system_user_element = (By.XPATH, "//div[@class='--toggle']//button[@type='button']")
+    select_element_status = (By.XPATH, "//body[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/form[1]/div[1]/div[1]/div[4]/div[1]/div[2]/div[1]/div[1]")
+    enable_select_element = (By.XPATH,"//body[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/form[1]/div[1]/div[1]/div[4]/div[1]/div[2]/div[1]/div[1]/div[2]")
 
     def __init__(self,driver):
         self.driver = driver
@@ -43,6 +46,22 @@ class AdminUserSearchpage:
         emp_field.send_keys(enter_employee_name)
         time.sleep(2)
         return emp_field.send_keys()
+
+    def select_status(self,dropdown_value):
+        dropdown = self.wait.until(
+            EC.element_to_be_clickable(self.system_user_element)
+        )
+        dropdown.click()
+        time.sleep(2)
+        dropdown.click()
+        # Click option inside dropdown
+        select_option = self.wait.until(
+            EC.element_to_be_clickable(self.select_element_status)
+        )
+        select_option.click()
+        time.sleep(2)
+        enable_option = self.wait.until(EC.element_to_be_clickable(self.enable_select_element))
+        enable_option.click()
 
     def click_on_search_button(self):
         self.wait.until(EC.element_to_be_clickable(self.search_button)).click()
