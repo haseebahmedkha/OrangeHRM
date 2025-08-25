@@ -36,6 +36,7 @@ class TestSearchUser_Enabale_disable_dropdown:
         admin_user_search_obj = AdminUserSearchpage(driver)
         logs_obj.info("------------ created Admin Page Object successfully ---------------")
         admin_user_search_obj.select_status("Enable")
+        logs_obj.info("------------ systemUser minimize/maximize successfully ---------------")
         time.sleep(2)
         logs_obj.info("------------ Click on Enable successfully ---------------")
         admin_user_search_obj.click_on_search_button()
