@@ -49,12 +49,6 @@ class AdminUserSearchpage:
         return emp_field.send_keys()
 
     def select_status(self,dropdown_value):
-        dropdown = self.wait.until(
-            EC.element_to_be_clickable(self.system_user_element)
-        )
-        dropdown.click()
-        time.sleep(2)
-        dropdown.click()
         # Click option inside dropdown
         select_option = self.wait.until(
             EC.element_to_be_clickable(self.select_element_status)
@@ -63,6 +57,14 @@ class AdminUserSearchpage:
         time.sleep(2)
         enable_option = self.wait.until(EC.element_to_be_clickable(self.enable_select_element))
         enable_option.click()
+
+    def drop_up_down_system_user(self):
+        dropdown = self.wait.until(
+            EC.element_to_be_clickable(self.system_user_element)
+        )
+        dropdown.click()
+        time.sleep(2)
+        dropdown.click()
 
     def click_on_search_button(self):
         self.wait.until(EC.element_to_be_clickable(self.search_button)).click()

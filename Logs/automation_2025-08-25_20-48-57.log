@@ -1,0 +1,13 @@
+2025-08-25 20:48:57,612 - INFO - ============= Search By All Field Test started =======================
+2025-08-25 20:48:57,783 - INFO - ------------ Enter Username Successfully ---------------
+2025-08-25 20:48:57,919 - INFO - ------------ Enter Password Successfully ---------------
+2025-08-25 20:49:01,997 - INFO - ------------ Click Login Button Successfully ---------------
+2025-08-25 20:49:03,663 - INFO - ------------ Clicked Admin fro sidebar Successfully ---------------
+2025-08-25 20:49:11,039 - INFO - ------------ system_user_up_down Successfully ---------------
+2025-08-25 20:49:11,251 - INFO - ------------ Put Forrest_Howe Successfully ---------------
+2025-08-25 20:49:13,568 - INFO - ------------ Select ESS Successfully ---------------
+2025-08-25 20:49:19,854 - INFO - ------------ Put Forrest Howe Successfully ---------------
+2025-08-25 20:49:22,217 - INFO - ------------ Select Enable Successfully ---------------
+2025-08-25 20:49:22,381 - INFO - ------------ Click Search Button Successfully ---------------
+2025-08-25 20:49:28,406 - INFO - the url of current page: ['https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers']
+2025-08-25 20:49:28,578 - INFO - ============= Search By All Field Test Passed =======================

@@ -43,6 +43,7 @@ class TestSearchUser_Enabale_disable_dropdown:
         time.sleep(3)
         logs_obj.info("------------ Clicked on Search Button successfully ---------------")
         assert not admin_user_search_obj.get_search_result() == "Enable", "Users with selected status not found in results"
+        driver.close()
         logs_obj.info("============= search Enable/Disable Test Passed =======================")
 
 

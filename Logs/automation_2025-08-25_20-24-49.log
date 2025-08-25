@@ -1,0 +1,22 @@
+2025-08-25 20:24:49,951 - INFO - ============= Search By All Field Test started =======================
+2025-08-25 20:24:51,266 - INFO - ------------ Enter Username Successfully ---------------
+2025-08-25 20:24:51,368 - INFO - ------------ Enter Password Successfully ---------------
+2025-08-25 20:24:55,455 - INFO - ------------ Click Login Button Successfully ---------------
+2025-08-25 20:24:56,909 - INFO - ------------ Clicked Admin fro sidebar Successfully ---------------
+2025-08-25 20:25:02,268 - INFO - ------------ Put Forrest_Howe Successfully ---------------
+2025-08-25 20:25:04,718 - INFO - ------------ Select ESS Successfully ---------------
+2025-08-25 20:25:11,046 - INFO - ------------ Put Forrest Howe Successfully ---------------
+2025-08-25 20:25:15,783 - INFO - ------------ Select Email Successfully ---------------
+2025-08-25 20:25:15,966 - INFO - ------------ Click Search Button Successfully ---------------
+2025-08-25 20:25:21,992 - INFO - the url of current page: ['https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers']
+2025-08-25 20:25:36,548 - INFO - ============= Search By All Field Test started =======================
+2025-08-25 20:25:36,723 - INFO - ------------ Enter Username Successfully ---------------
+2025-08-25 20:25:36,811 - INFO - ------------ Enter Password Successfully ---------------
+2025-08-25 20:25:40,891 - INFO - ------------ Click Login Button Successfully ---------------
+2025-08-25 20:25:43,272 - INFO - ------------ Clicked Admin fro sidebar Successfully ---------------
+2025-08-25 20:25:48,535 - INFO - ------------ Put Forrest_Howe Successfully ---------------
+2025-08-25 20:25:50,940 - INFO - ------------ Select ESS Successfully ---------------
+2025-08-25 20:25:57,268 - INFO - ------------ Put Forrest Howe Successfully ---------------
+2025-08-25 20:26:02,079 - INFO - ------------ Select Email Successfully ---------------
+2025-08-25 20:26:02,271 - INFO - ------------ Click Search Button Successfully ---------------
+2025-08-25 20:26:08,295 - INFO - the url of current page: ['https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers']

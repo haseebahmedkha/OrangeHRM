@@ -1,0 +1,8 @@
+2025-08-25 20:57:28,347 - INFO - ============= search with Enable/Disable Dropdown Test started =======================
+2025-08-25 20:57:28,348 - INFO - ------------ created Login Page Object successfully ---------------
+2025-08-25 20:57:28,478 - INFO - ------------ Enter Username Successfully ---------------
+2025-08-25 20:57:28,667 - INFO - ------------ Enter Password Successfully ---------------
+2025-08-25 20:57:31,752 - INFO - ------------ Click Login Button Successfully ---------------
+2025-08-25 20:57:31,753 - INFO - ------------ created Admin Page Object successfully ---------------
+2025-08-25 20:57:33,526 - INFO - ------------ Clicked Admin fro sidebar Successfully ---------------
+2025-08-25 20:57:37,527 - INFO - ------------ created Admin Page Object successfully ---------------
