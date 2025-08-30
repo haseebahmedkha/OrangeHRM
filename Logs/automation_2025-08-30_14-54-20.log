@@ -1,0 +1,9 @@
+2025-08-30 14:54:20,092 - INFO - ============= Delete User Test started =======================
+2025-08-30 14:54:20,255 - INFO - ------------ Enter Username Successfully ---------------
+2025-08-30 14:54:20,411 - INFO - ------------ Enter Password Successfully ---------------
+2025-08-30 14:54:24,500 - INFO - ------------ Click Login Button Successfully ---------------
+2025-08-30 14:54:25,608 - INFO - ------------ Clicked Admin from sidebar Successfully ---------------
+2025-08-30 14:54:31,162 - INFO - ------------ Put User Data Successfully ---------------
+2025-08-30 14:54:31,260 - INFO - ------------ Click Search Button Successfully ---------------
+2025-08-30 14:54:37,557 - INFO - ------------ Click Delete Button Successfully ---------------
+2025-08-30 14:54:37,713 - INFO - ------------ Click Confirm Button Successfully ---------------

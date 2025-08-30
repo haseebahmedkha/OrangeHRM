@@ -8,7 +8,7 @@ import time
 from selenium.webdriver.common.by import By
 
 @pytest.mark.usefixtures("setup")
-class Test_searchuser_allfield:
+class TestSearchUserAllField:
     def test_search_all_field(self,setup):
         driver = setup
         logger_obj = LogGen.loggen()

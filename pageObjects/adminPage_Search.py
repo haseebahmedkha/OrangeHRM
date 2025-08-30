@@ -19,6 +19,12 @@ class AdminUserSearchpage:
     select_element_status = (By.XPATH, "//body[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/form[1]/div[1]/div[1]/div[4]/div[1]/div[2]/div[1]/div[1]")
     enable_select_element = (By.XPATH,"//body[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/form[1]/div[1]/div[1]/div[4]/div[1]/div[2]/div[1]/div[1]/div[2]")
 
+    # Delete Locators
+    user_checkbox = (By.XPATH, "//div[@class='oxd-table-body']//div[@role='row'][1]//input[@type='checkbox']")
+    delete_button = (By.XPATH, "//button[@class='oxd-icon-button oxd-table-cell-action-space'][1]")
+    confirm_delete = (By.XPATH, "//button[normalize-space()='Yes, Delete']")
+
+
     def __init__(self,driver):
         self.driver = driver
         self.wait = WebDriverWait(driver,10)
@@ -71,6 +77,18 @@ class AdminUserSearchpage:
 
     def click_reset_button(self):
         self.wait.until(EC.element_to_be_clickable(self.reset_button)).click()
+
+    def select_first_user_checkbox(self):
+        checkbox = self.wait.until(EC.element_to_be_clickable(self.user_checkbox))
+        checkbox.click()
+
+    def click_delete_button(self):
+        delete_btn = self.wait.until(EC.element_to_be_clickable(self.delete_button))
+        delete_btn.click()
+
+    def click_confirm_deletion(self):
+        confirm_btn = self.wait.until(EC.element_to_be_clickable(self.confirm_delete))
+        confirm_btn.click()
 
     def get_search_result(self):
         self.wait.until(EC.presence_of_element_located(self.result_rows))

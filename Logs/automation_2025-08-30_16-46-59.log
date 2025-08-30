@@ -1,0 +1,9 @@
+2025-08-30 16:47:00,004 - INFO - ============= Delete User TestCase started =======================
+2025-08-30 16:47:00,358 - INFO - ------------ Enter Username Successfully ---------------
+2025-08-30 16:47:00,837 - INFO - ------------ Enter Password Successfully ---------------
+2025-08-30 16:47:05,167 - INFO - ------------ Click Login Button Successfully ---------------
+2025-08-30 16:47:07,344 - INFO - ------------ Clicked Admin from sidebar Successfully ---------------
+2025-08-30 16:47:12,576 - INFO - ------------ Put User Data Successfully ---------------
+2025-08-30 16:47:14,983 - INFO - ------------ Select ESS Successfully ---------------
+2025-08-30 16:47:15,187 - INFO - ------------ Click Search Button Successfully ---------------
+2025-08-30 16:47:21,562 - INFO - ------------ Click Delete Button Successfully ---------------
