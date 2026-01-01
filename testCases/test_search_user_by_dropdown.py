@@ -1,6 +1,6 @@
 import pytest, configparser
 import time
-from pageObjects.adminPage_Search import AdminUserSearchpage
+from pageObjects.adminPage_Search import AdminUserSearchPage
 from pageObjects.login_Page import LoginPage
 from pageObjects.adminPage import AdminPage
 from pageObjects.dashboard_page import DashboardPage
@@ -33,7 +33,7 @@ class TestSearchUser_Enabale_disable_dropdown:
         logs_obj.info("------------ Clicked Admin fro sidebar Successfully ---------------")
         time.sleep(4)
 
-        admin_user_search_obj = AdminUserSearchpage(driver)
+        admin_user_search_obj = AdminUserSearchPage(driver)
         logs_obj.info("------------ created Admin Page Object successfully ---------------")
         admin_user_search_obj.select_status("Enable")
         logs_obj.info("------------ systemUser minimize/maximize successfully ---------------")

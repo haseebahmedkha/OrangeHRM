@@ -1,6 +1,6 @@
 import time
 import pytest, configparser
-from pageObjects.adminPage_Search import AdminUserSearchpage
+from pageObjects.adminPage_Search import AdminUserSearchPage
 from pageObjects.login_Page import LoginPage
 from pageObjects.adminPage import AdminPage
 from Utilities.logger import LogGen
@@ -34,7 +34,7 @@ class TestSearchUser_name_employee:
         admin_obj.go_to_admin()
         loggen.info("--------------- Clicked on Admin ----------------------")
         time.sleep(5)
-        admin_search_obj = AdminUserSearchpage(setup)
+        admin_search_obj = AdminUserSearchPage(setup)
         loggen.info("========= Navigate to Admin User Search Page =================")
         admin_search_obj.enter_employee_name(self.employee_name)
         loggen.info("----------- Enter Employee Name --------------------------------")

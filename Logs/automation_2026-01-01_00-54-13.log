@@ -1,0 +1,103 @@
+2026-01-01 00:54:13,936 - INFO - ****** Test Started: Valid Login ******
+2026-01-01 00:54:13,938 - INFO - ===Navigating to the login page===
+2026-01-01 00:54:19,323 - INFO - ===Entering username===
+2026-01-01 00:54:24,515 - INFO - ===Entering Password===
+2026-01-01 00:54:29,750 - INFO - ===clicked login===
+2026-01-01 00:54:37,606 - INFO - ===Login successful and testcase passed
+2026-01-01 00:54:37,607 - INFO - Login test cases ended
+2026-01-01 00:55:08,427 - INFO - Setup Initialized
+2026-01-01 00:55:08,429 - INFO - login ddt testcase started
+2026-01-01 00:55:11,209 - INFO - Enter username
+2026-01-01 00:55:11,588 - INFO - Enter password
+2026-01-01 00:55:11,838 - INFO - click Login button Successfully
+2026-01-01 00:55:44,343 - INFO - Setup Initialized
+2026-01-01 00:55:44,344 - INFO - login ddt testcase started
+2026-01-01 00:55:47,954 - INFO - Enter username
+2026-01-01 00:55:48,198 - INFO - Enter password
+2026-01-01 00:55:48,515 - INFO - click Login button Successfully
+2026-01-01 00:56:10,711 - INFO - ****** Starting Add Admin Test ******
+2026-01-01 00:56:10,886 - INFO - ===Entering username: Admin===
+2026-01-01 00:56:11,065 - INFO - ===Entering password===
+2026-01-01 00:56:11,304 - INFO - ===Clicked login===
+2026-01-01 00:56:15,202 - INFO - ===Navigated to Admin===
+2026-01-01 00:56:17,055 - INFO - ===Clicked Add button===
+2026-01-01 00:56:23,643 - INFO - ===All fields entered successfully===
+2026-01-01 00:56:55,297 - INFO - === Test Passed ===
+2026-01-01 00:57:13,633 - INFO - ****** Starting Add Admin Test ******
+2026-01-01 00:57:14,027 - INFO - ===Entering username: Admin===
+2026-01-01 00:57:14,419 - INFO - ===Entering password===
+2026-01-01 00:57:16,311 - INFO - ===Clicked login===
+2026-01-01 00:57:18,202 - INFO - ===Navigated to Admin===
+2026-01-01 00:57:21,550 - INFO - ===Clicked Add button===
+2026-01-01 00:57:27,792 - INFO - ===All fields entered successfully===
+2026-01-01 00:57:59,354 - INFO - === Test Passed ===
+2026-01-01 00:58:12,509 - INFO - ****** Test Started: Dashboard Access ******
+2026-01-01 00:58:16,556 - INFO - Dashboard Page Loaded
+2026-01-01 00:58:16,627 - INFO - Dashboard Header Text: Dashboard
+2026-01-01 00:58:17,085 - INFO - visible Left Menu Items: ['Admin', 'PIM', 'Leave', 'Time', 'Recruitment', 'My Info', 'Performance', 'Dashboard', 'Directory', 'Maintenance', 'Claim', 'Buzz']
+2026-01-01 00:58:39,001 - INFO - ============= Delete User TestCase started =======================
+2026-01-01 00:58:39,372 - INFO - ------------ Enter Username Successfully ---------------
+2026-01-01 00:58:39,813 - INFO - ------------ Enter Password Successfully ---------------
+2026-01-01 00:58:44,062 - INFO - ------------ Click Login Button Successfully ---------------
+2026-01-01 00:58:45,894 - INFO - ------------ Clicked Admin from sidebar Successfully ---------------
+2026-01-01 00:58:51,293 - INFO - ------------ Put User Data Successfully ---------------
+2026-01-01 00:58:53,909 - INFO - ------------ Select ESS Successfully ---------------
+2026-01-01 00:58:54,116 - INFO - ------------ Click Search Button Successfully ---------------
+2026-01-01 00:59:00,530 - INFO - ------------ Click Delete Button Successfully ---------------
+2026-01-01 00:59:03,114 - INFO - ------------ Click Confirm Button Successfully ---------------
+2026-01-01 00:59:06,402 - INFO - ============= Delete User TestCase Passed =======================
+2026-01-01 00:59:20,651 - INFO - ****** Starting Search By Username Test ******
+2026-01-01 00:59:21,073 - INFO - --------- Enter Username --------------
+2026-01-01 00:59:21,459 - INFO - --------- Enter Password --------------
+2026-01-01 00:59:21,877 - INFO - ------ succesfully Login  --------
+2026-01-01 00:59:26,773 - INFO - --------- click on Admin Button --------------
+2026-01-01 00:59:29,775 - INFO - --------- Admin Page Now --------------
+2026-01-01 00:59:30,234 - INFO - --------- Pasting Admin on Field --------------
+2026-01-01 00:59:30,404 - INFO - --------- Clicking search button --------------
+2026-01-01 00:59:32,581 - INFO - ****** Search By Name Test Passed ******
+2026-01-01 00:59:49,624 - INFO - ============= Search By All Field Test started =======================
+2026-01-01 00:59:49,764 - INFO - ------------ Enter Username Successfully ---------------
+2026-01-01 00:59:49,942 - INFO - ------------ Enter Password Successfully ---------------
+2026-01-01 00:59:54,281 - INFO - ------------ Click Login Button Successfully ---------------
+2026-01-01 00:59:55,636 - INFO - ------------ Clicked Admin fro sidebar Successfully ---------------
+2026-01-01 01:00:03,295 - INFO - ------------ system_user_up_down Successfully ---------------
+2026-01-01 01:00:03,773 - INFO - ------------ Put Forrest_Howe Successfully ---------------
+2026-01-01 01:00:06,412 - INFO - ------------ Select ESS Successfully ---------------
+2026-01-01 01:00:23,856 - INFO - ============= search with Enable/Disable Dropdown Test started =======================
+2026-01-01 01:00:23,856 - INFO - ------------ created Login Page Object successfully ---------------
+2026-01-01 01:00:24,058 - INFO - ------------ Enter Username Successfully ---------------
+2026-01-01 01:00:24,291 - INFO - ------------ Enter Password Successfully ---------------
+2026-01-01 01:00:27,512 - INFO - ------------ Click Login Button Successfully ---------------
+2026-01-01 01:00:27,514 - INFO - ------------ created Admin Page Object successfully ---------------
+2026-01-01 01:00:29,012 - INFO - ------------ Clicked Admin fro sidebar Successfully ---------------
+2026-01-01 01:00:33,014 - INFO - ------------ created Admin Page Object successfully ---------------
+2026-01-01 01:00:35,687 - INFO - ------------ systemUser minimize/maximize successfully ---------------
+2026-01-01 01:00:37,689 - INFO - ------------ Click on Enable successfully ---------------
+2026-01-01 01:00:40,989 - INFO - ------------ Clicked on Search Button successfully ---------------
+2026-01-01 01:00:41,378 - INFO - ============= search Enable/Disable Test Passed =======================
+2026-01-01 01:00:54,153 - INFO - ============= search with Employee name Test started =======================
+2026-01-01 01:00:54,158 - INFO - ---- getting Username -----
+2026-01-01 01:00:54,159 - INFO - ---- getting Password -----
+2026-01-01 01:00:54,161 - INFO - ========= Navigate to Login Page =================
+2026-01-01 01:00:54,162 - INFO - ---- Login Page Activated -----
+2026-01-01 01:00:54,584 - INFO - ---- Enter Username -----
+2026-01-01 01:00:54,977 - INFO - ---- Enter Password -----
+2026-01-01 01:00:55,372 - INFO - ---- Clicked Login Button -----
+2026-01-01 01:01:01,375 - INFO - ========= Navigate to Admin Page =================
+2026-01-01 01:01:02,783 - INFO - --------------- Clicked on Admin ----------------------
+2026-01-01 01:01:07,786 - INFO - ========= Navigate to Admin User Search Page =================
+2026-01-01 01:01:10,419 - INFO - ----------- Enter Employee Name --------------------------------
+2026-01-01 01:01:10,923 - INFO - ============= search with Employee name Test Passed =======================
+2026-01-01 01:01:28,318 - INFO - ****** Starting Search by Role ******
+2026-01-01 01:01:28,320 - INFO - ---- setup Initiated -----
+2026-01-01 01:01:28,323 - INFO - ---- getting Username -----
+2026-01-01 01:01:28,325 - INFO - ---- getting URL -----
+2026-01-01 01:01:28,326 - INFO - ---- Login Page Activated -----
+2026-01-01 01:01:28,708 - INFO - ---- Enter Username -----
+2026-01-01 01:01:29,021 - INFO - ---- Enter Password -----
+2026-01-01 01:01:29,213 - INFO - ---- Clicked Login Button -----
+2026-01-01 01:01:32,610 - INFO - ---- Click on Admin -----
+2026-01-01 01:01:34,611 - INFO - ---- Navigate to Search Page -----
+2026-01-01 01:01:37,357 - INFO - ---- Paste Admin  -----
+2026-01-01 01:01:37,735 - INFO - ---- Click on Search button -----
+2026-01-01 01:01:43,049 - INFO - ****** Search by user role testcase Passed ******

@@ -1,0 +1,14 @@
+2025-12-31 01:49:39,421 - INFO - ****** Test Started: Valid Login ******
+2025-12-31 01:49:39,424 - INFO - ===Navigating to the login page===
+2025-12-31 01:49:44,583 - INFO - ===Entering username===
+2025-12-31 01:49:49,806 - INFO - ===Entering Password===
+2025-12-31 01:49:55,038 - INFO - ===clicked login===
+2025-12-31 01:50:02,406 - INFO - ===Login successful and testcase passed
+2025-12-31 01:50:02,406 - INFO - Login test cases ended
+2025-12-31 01:50:02,417 - INFO - Setup Initialized
+2025-12-31 01:50:02,418 - INFO - login ddt testcase started
+2025-12-31 01:50:13,122 - INFO - Setup Initialized
+2025-12-31 01:50:13,135 - INFO - login ddt testcase started
+2025-12-31 01:50:30,000 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025B76D8BB10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/45bf3c842499f8c2c088596b506e1216/window
+2025-12-31 01:50:34,091 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025B76E88690>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/45bf3c842499f8c2c088596b506e1216/window
+2025-12-31 01:50:38,186 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025B76D82EA0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/45bf3c842499f8c2c088596b506e1216/window

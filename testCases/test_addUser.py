@@ -17,6 +17,8 @@ class Test_add_admin_003:
 
     def test_add_admin_ddt(self, setup, username, password, role, emp_name, new_username, new_password, expected_result):
         logger = LogGen.loggen()
+        logObj = LogGen()
+        logObj.loggen()
         logger.info("****** Starting Add Admin Test ******")
 
         # If you want to override with config.ini, uncomment below

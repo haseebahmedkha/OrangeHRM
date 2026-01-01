@@ -1,6 +1,6 @@
 import time
 import pytest, configparser
-from pageObjects.adminPage_Search import AdminUserSearchpage
+from pageObjects.adminPage_Search import AdminUserSearchPage
 from pageObjects.login_Page import LoginPage
 from pageObjects.adminPage import AdminPage
 from Utilities.logger import LogGen
@@ -40,7 +40,7 @@ class TestSearchUser_role():
         time.sleep(2)
 
         # search by role
-        adminsearch_obj = AdminUserSearchpage(driver)
+        adminsearch_obj = AdminUserSearchPage(driver)
         loggen_obj.info("---- Navigate to Search Page -----")
         adminsearch_obj.select_user_role("Admin")
         loggen_obj.info("---- Paste Admin  -----")

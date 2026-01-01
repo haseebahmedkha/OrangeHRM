@@ -1,0 +1,7 @@
+2026-01-01 03:02:44,114 - INFO - ****** Logout Test has been Started ******
+2026-01-01 03:02:44,118 - INFO - ===Navigating to the login page===
+2026-01-01 03:02:44,248 - INFO - ===Entering username===
+2026-01-01 03:02:49,388 - INFO - ===Entering Password===
+2026-01-01 03:02:54,478 - INFO - ===clicked login===
+2026-01-01 03:02:59,479 - INFO - ===click on Dropdown===
+2026-01-01 03:03:04,114 - INFO - ===click on logout Successfully===

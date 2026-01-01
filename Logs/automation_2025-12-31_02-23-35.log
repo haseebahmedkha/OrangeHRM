@@ -1,0 +1,18 @@
+2025-12-31 02:23:35,807 - INFO - ****** Starting Add Admin Test ******
+2025-12-31 02:23:35,807 - INFO - ****** Starting Add Admin Test ******
+2025-12-31 02:23:36,289 - INFO - ===Entering username: Admin===
+2025-12-31 02:23:36,289 - INFO - ===Entering username: Admin===
+2025-12-31 02:23:36,733 - INFO - ===Entering password===
+2025-12-31 02:23:36,733 - INFO - ===Entering password===
+2025-12-31 02:23:36,944 - INFO - ===Clicked login===
+2025-12-31 02:23:36,944 - INFO - ===Clicked login===
+2025-12-31 02:23:40,483 - INFO - ===Navigated to Admin===
+2025-12-31 02:23:40,483 - INFO - ===Navigated to Admin===
+2025-12-31 02:23:41,774 - INFO - ===Clicked Add button===
+2025-12-31 02:23:41,774 - INFO - ===Clicked Add button===
+2025-12-31 02:23:45,730 - INFO - ===All fields entered successfully===
+2025-12-31 02:23:45,730 - INFO - ===All fields entered successfully===
+2025-12-31 02:24:17,309 - INFO - === Test Passed ===
+2025-12-31 02:24:17,309 - INFO - === Test Passed ===
+2025-12-31 02:24:17,321 - INFO - ****** Starting Add Admin Test ******
+2025-12-31 02:24:17,321 - INFO - ****** Starting Add Admin Test ******

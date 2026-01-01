@@ -1,0 +1,12 @@
+2026-01-01 00:46:23,725 - INFO - Setup Initialized
+2026-01-01 00:46:23,726 - INFO - login ddt testcase started
+2026-01-01 00:46:24,284 - INFO - Enter username
+2026-01-01 00:46:24,684 - INFO - Enter password
+2026-01-01 00:46:25,062 - INFO - click Login button Successfully
+2026-01-01 00:46:41,690 - INFO - ****** Test Started: Dashboard Access ******
+2026-01-01 00:46:45,028 - INFO - Dashboard Page Loaded
+2026-01-01 00:46:45,095 - INFO - Dashboard Header Text: Dashboard
+2026-01-01 00:46:45,662 - INFO - visible Left Menu Items: ['Admin', 'PIM', 'Leave', 'Time', 'Recruitment', 'My Info', 'Performance', 'Dashboard', 'Directory', 'Maintenance', 'Claim', 'Buzz']
+2026-01-01 00:46:46,148 - INFO - Expected Widgets: ['Time at Work', 'My Actions', 'Quick Launch']
+2026-01-01 00:46:46,149 - INFO - Dashboard validations passed
+2026-01-01 00:46:46,149 - INFO - ****** Test Ended: Dashboard Access ******

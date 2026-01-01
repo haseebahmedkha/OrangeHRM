@@ -6,7 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import Select
 from Utilities.logger import LogGen
 
-class AdminUserSearchpage:
+class AdminUserSearchPage:
     # Locators
     search_user_name = (By.XPATH,"//label[text()='Username']/../following-sibling::div/input")
     role_dropdown = (By.XPATH, "//label[text()='User Role']/../following-sibling::div//div[contains(@class,'oxd-select-text-input')]")

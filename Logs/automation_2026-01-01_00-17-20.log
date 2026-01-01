@@ -1,0 +1,17 @@
+2026-01-01 00:17:20,439 - INFO - ****** Test Started: Valid Login ******
+2026-01-01 00:17:20,441 - INFO - ===Navigating to the login page===
+2026-01-01 00:17:25,932 - INFO - ===Entering username===
+2026-01-01 00:17:31,177 - INFO - ===Entering Password===
+2026-01-01 00:17:36,428 - INFO - ===clicked login===
+2026-01-01 00:17:47,617 - INFO - ===Login successful and testcase passed
+2026-01-01 00:17:47,617 - INFO - Login test cases ended
+2026-01-01 00:18:02,059 - INFO - Setup Initialized
+2026-01-01 00:18:02,060 - INFO - login ddt testcase started
+2026-01-01 00:18:02,306 - INFO - Enter username
+2026-01-01 00:18:02,513 - INFO - Enter password
+2026-01-01 00:18:05,219 - INFO - click Login button Successfully
+2026-01-01 00:18:23,181 - INFO - Setup Initialized
+2026-01-01 00:18:23,182 - INFO - login ddt testcase started
+2026-01-01 00:18:23,443 - INFO - Enter username
+2026-01-01 00:18:23,675 - INFO - Enter password
+2026-01-01 00:18:25,018 - INFO - click Login button Successfully

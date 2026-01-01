@@ -1,6 +1,6 @@
 from Utilities.logger import LogGen
 from pageObjects.adminPage import AdminPage
-from pageObjects.adminPage_Search import AdminUserSearchpage
+from pageObjects.adminPage_Search import AdminUserSearchPage
 import pytest,configparser,time
 from pageObjects.login_Page import LoginPage
 from conftest import setup
@@ -19,7 +19,7 @@ class TestSearchUserDelete:
         logger_obj = LogGen.loggen()
         login_obj = LoginPage(setup)
         admin_page_obj = AdminPage(setup)
-        admin_search_obj = AdminUserSearchpage(setup)
+        admin_search_obj = AdminUserSearchPage(setup)
         config = configparser.ConfigParser()
         config.read("./config/config.ini")
         username = config["DEFAULT"]["username"]

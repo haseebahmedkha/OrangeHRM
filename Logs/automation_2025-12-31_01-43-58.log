@@ -1,0 +1,5 @@
+2025-12-31 01:43:58,270 - INFO - ****** Test Started: Valid Login ******
+2025-12-31 01:43:58,273 - INFO - ===Navigating to the login page===
+2025-12-31 01:44:03,438 - INFO - ===Entering username===
+2025-12-31 01:44:08,749 - INFO - ===Entering Password===
+2025-12-31 01:44:14,058 - INFO - ===clicked login===

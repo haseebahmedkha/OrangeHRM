@@ -4,7 +4,8 @@ import pytest
 from selenium import webdriver
 import configparser
 
-@pytest.fixture(scope="class")
+# use scope as a Function to open a browser before any testcase
+@pytest.fixture(scope="function")
 def setup(request):
     config = configparser.ConfigParser()
     config.read("config/config.ini")
@@ -23,12 +24,14 @@ def setup(request):
     driver.get(url)
     time.sleep(4)
     request.cls.driver = driver
+    # After yield driver will be Close Or TearDown
     yield driver
     driver.quit()
+    # driver.close()
 
 
 
-# screenshot
+# Get screenshot if Testcase got failed
 @pytest.hookimpl(hookwrapper=True)
 def pytest_runtest_makereport(item,call):
     outcome = yield

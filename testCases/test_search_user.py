@@ -1,6 +1,6 @@
 import time
 import pytest, configparser
-from pageObjects.adminPage_Search import AdminUserSearchpage
+from pageObjects.adminPage_Search import AdminUserSearchPage
 from pageObjects.login_Page import LoginPage
 from pageObjects.adminPage import AdminPage
 from Utilities.logger import LogGen
@@ -8,6 +8,7 @@ from Utilities.logger import LogGen
 
 @pytest.mark.usefixtures("setup")
 class TestSearchUser_name:
+
     def test_search_by_username(self, setup):
         driver = setup
         loggen_obj = LogGen.loggen()
@@ -34,7 +35,7 @@ class TestSearchUser_name:
         time.sleep(3)
 
         # search
-        adminsearch_obj = AdminUserSearchpage(driver)
+        adminsearch_obj = AdminUserSearchPage(driver)
         loggen_obj.info("--------- Admin Page Now --------------")
         adminsearch_obj.enter_username("admin")
         loggen_obj.info("--------- Pasting Admin on Field --------------")
