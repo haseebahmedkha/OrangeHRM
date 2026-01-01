@@ -1,77 +1,99 @@
-from Utilities.logger import LogGen
-from conftest import setup
-from pageObjects.login_Page import LoginPage
-from pageObjects.adminPage_Search import AdminUserSearchPage
-from pageObjects.adminPage import AdminPage
-import pytest,configparser
+# ================================
+# Imports
+# ================================
 import time
+import pytest
+import configparser
 from selenium.webdriver.common.by import By
 
-@pytest.mark.usefixtures("setup")
+# Page Objects and Utilities
+from Utilities.logger import LogGen
+from pageObjects.login_Page import LoginPage
+from pageObjects.adminPage import AdminPage
+from pageObjects.adminPage_Search import AdminUserSearchPage
+from conftest import setup
+
+
+# ================================
+# Test Class: Search Admin User by All Fields
+# ================================
+@pytest.mark.usefixtures("setup")  # Use setup fixture for WebDriver
 class TestSearchUserAllField:
-    def test_search_all_field(self,setup):
+    """
+    Test class to validate searching for an admin user using all search fields.
+    """
+
+    def test_search_all_field(self, setup):
+        """
+        Test steps:
+        1. Login using credentials from config.ini
+        2. Navigate to Admin page
+        3. Perform search using all available filters:
+           - System User dropdown
+           - Username
+           - User Role
+           - Employee Name
+           - Status
+        4. Verify the current URL after search
+        """
+
         driver = setup
-        logger_obj = LogGen.loggen()
-        login_obj = LoginPage(setup)
-        admin_page_obj = AdminPage(setup)
-        admin_search_obj = AdminUserSearchPage(setup)
+
+        # -----------------------
+        # Initialize logger and page objects
+        # -----------------------
+        logger = LogGen.loggen()
+        login_obj = LoginPage(driver)
+        admin_page_obj = AdminPage(driver)
+        admin_search_obj = AdminUserSearchPage(driver)
+
+        # Load login credentials from config.ini
         config = configparser.ConfigParser()
         config.read("./config/config.ini")
         username = config["DEFAULT"]["username"]
         password = config["DEFAULT"]["password"]
 
-        logger_obj.info("============= Search By All Field Test started =======================")
+        logger.info("============= Search By All Field Test started =======================")
 
+        # -----------------------
+        # Perform Login
+        # -----------------------
         login_obj.enter_username(username)
-        logger_obj.info("------------ Enter Username Successfully ---------------")
+        logger.info("------------ Enter Username Successfully ---------------")
         login_obj.enter_password(password)
-        logger_obj.info("------------ Enter Password Successfully ---------------")
+        logger.info("------------ Enter Password Successfully ---------------")
         login_obj.click_login()
-        time.sleep(4)
-        logger_obj.info("------------ Click Login Button Successfully ---------------")
+        time.sleep(4)  # Wait for dashboard to load (replace with explicit wait)
+        logger.info("------------ Click Login Button Successfully ---------------")
 
+        # -----------------------
+        # Navigate to Admin Page
+        # -----------------------
         admin_page_obj.go_to_admin()
-        logger_obj.info("------------ Clicked Admin fro sidebar Successfully ---------------")
-        time.sleep(5)
+        logger.info("------------ Clicked Admin from sidebar Successfully ---------------")
+        time.sleep(5)  # Wait for Admin page to load
 
+        # -----------------------
+        # Fill all search fields
+        # -----------------------
         admin_search_obj.drop_up_down_system_user()
-        logger_obj.info("------------ system_user_up_down Successfully ---------------")
+        logger.info("------------ System User dropdown interacted successfully ---------------")
 
         admin_search_obj.enter_username("Forrest_Howe")
-        logger_obj.info("------------ Put Forrest_Howe Successfully ---------------")
+        logger.info("------------ Entered username: Forrest_Howe ---------------")
+
         admin_search_obj.select_user_role("ESS")
-        logger_obj.info("------------ Select ESS Successfully ---------------")
-        admin_search_obj.enter_employee_name("Forrest  Howe")
-        time.sleep(4)
-        logger_obj.info("------------ Put Forrest Howe Successfully ---------------")
+        logger.info("------------ Selected User Role: ESS ---------------")
+
+        admin_search_obj.enter_employee_name("Forrest Howe")
+        time.sleep(4)  # Wait for autocomplete or validation
+        logger.info("------------ Entered Employee Name: Forrest Howe ---------------")
+
         admin_search_obj.select_status("Enable")
-        logger_obj.info("------------ Select Enable Successfully ---------------")
+        logger.info("------------ Selected Status: Enable ---------------")
+
         admin_search_obj.click_on_search_button()
-        logger_obj.info("------------ Click Search Button Successfully ---------------")
-        time.sleep(6)
-        url = []
-        get_url = driver.current_url
-        url.append(get_url)
-        logger_obj.info(f"the url of current page: {url}")
-        driver.close()
-        logger_obj.info("============= Search By All Field Test Passed =======================")
+        logger.info("------------ Clicked Search Button Successfully ---------------")
+        time.sleep(6)  # Wait for search results to load
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        # ------

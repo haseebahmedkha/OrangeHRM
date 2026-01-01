@@ -1,53 +1,92 @@
-import pytest, configparser
+# ================================
+# Imports
+# ================================
+import pytest
+import configparser
 import time
-from pageObjects.adminPage_Search import AdminUserSearchPage
+
+# Page Objects and Utilities
 from pageObjects.login_Page import LoginPage
 from pageObjects.adminPage import AdminPage
-from pageObjects.dashboard_page import DashboardPage
+from pageObjects.adminPage_Search import AdminUserSearchPage
 from Utilities.logger import LogGen
 
-@pytest.mark.usefixtures("setup")
-class TestSearchUser_Enabale_disable_dropdown:
-    def test_search_by_enable_disable(self,setup):
+
+# ================================
+# Test Class: Search Admin Users by Status (Enable/Disable)
+# ================================
+@pytest.mark.usefixtures("setup")  # Use setup fixture for WebDriver
+class TestSearchUser_Enable_disable_dropdown:
+    """
+    Test class to validate searching for admin users using the Status dropdown (Enable/Disable)
+    """
+
+    def test_search_by_enable_disable(self, setup):
+        """
+        Test steps:
+        1. Login with credentials from config.ini
+        2. Navigate to Admin page
+        3. Select 'Enable' status from dropdown
+        4. Perform search
+        5. Validate results
+        """
         driver = setup
-        logs_obj = LogGen.loggen()
+        logger = LogGen.loggen()
+
+        # -----------------------
+        # Load credentials from config.ini
+        # -----------------------
         config = configparser.ConfigParser()
         config.read("./config/config.ini")
         username = config["DEFAULT"]["username"]
         password = config["DEFAULT"]["password"]
-        logs_obj.info("============= search with Enable/Disable Dropdown Test started =======================")
 
+        logger.info("============= Search with Enable/Disable Dropdown Test started =======================")
+
+        # -----------------------
+        # Login to application
+        # -----------------------
         login_obj = LoginPage(driver)
-        logs_obj.info("------------ created Login Page Object successfully ---------------")
+        logger.info("------------ Created Login Page object ---------------")
         login_obj.enter_username(username)
-        logs_obj.info("------------ Enter Username Successfully ---------------")
+        logger.info("------------ Entered Username Successfully ---------------")
         login_obj.enter_password(password)
-        logs_obj.info("------------ Enter Password Successfully ---------------")
+        logger.info("------------ Entered Password Successfully ---------------")
         login_obj.click_login()
-        time.sleep(3)
-        logs_obj.info("------------ Click Login Button Successfully ---------------")
+        time.sleep(3)  # Wait for dashboard (replace with explicit wait)
+        logger.info("------------ Clicked Login Button Successfully ---------------")
 
+        # -----------------------
+        # Navigate to Admin Page
+        # -----------------------
         admin_page_obj = AdminPage(driver)
-        logs_obj.info("------------ created Admin Page Object successfully ---------------")
+        logger.info("------------ Created Admin Page object ---------------")
         admin_page_obj.go_to_admin()
-        logs_obj.info("------------ Clicked Admin fro sidebar Successfully ---------------")
+        logger.info("------------ Clicked Admin from sidebar Successfully ---------------")
         time.sleep(4)
 
+        # -----------------------
+        # Search users by Status dropdown
+        # -----------------------
         admin_user_search_obj = AdminUserSearchPage(driver)
-        logs_obj.info("------------ created Admin Page Object successfully ---------------")
-        admin_user_search_obj.select_status("Enable")
-        logs_obj.info("------------ systemUser minimize/maximize successfully ---------------")
+        logger.info("------------ Created Admin User Search Page object ---------------")
+
+        admin_user_search_obj.select_status("Enable")  # Select 'Enable' from dropdown
+        logger.info("------------ Selected 'Enable' from Status dropdown successfully ---------------")
         time.sleep(2)
-        logs_obj.info("------------ Click on Enable successfully ---------------")
-        admin_user_search_obj.click_on_search_button()
+
+        admin_user_search_obj.click_on_search_button()  # Click Search
         time.sleep(3)
-        logs_obj.info("------------ Clicked on Search Button successfully ---------------")
-        assert not admin_user_search_obj.get_search_result() == "Enable", "Users with selected status not found in results"
+        logger.info("------------ Clicked Search Button successfully ---------------")
+
+        # -----------------------
+        # Validate search results
+        # -----------------------
+        results = admin_user_search_obj.get_search_result()  # Returns list of WebElements
+
+        # Check if at least one result has 'Enable' status
+        assert any("Enable" in row.text for row in results), "Users with selected status 'Enable' not found in results"
+
+        # Close browser (optional if fixture handles teardown)
         driver.close()
-        logs_obj.info("============= search Enable/Disable Test Passed =======================")
-
-
-
-
-
-
+        logger.info("============= Search Enable/Disable Test Passed =======================")
