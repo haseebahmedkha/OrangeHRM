@@ -1,0 +1,10 @@
+2026-01-01 23:03:13,076 - INFO - ****** Starting Search by Role Test ******
+2026-01-01 23:03:13,079 - INFO - ---- Loaded configuration values -----
+2026-01-01 23:03:13,080 - INFO - ---- Login Page Activated -----
+2026-01-01 23:03:13,500 - INFO - ---- Entered Username -----
+2026-01-01 23:03:13,613 - INFO - ---- Entered Password -----
+2026-01-01 23:03:13,742 - INFO - ---- Clicked Login Button -----
+2026-01-01 23:03:29,712 - INFO - ---- Navigated to Admin Page -----
+2026-01-01 23:03:31,713 - INFO - ---- Navigate to Admin User Search Page -----
+2026-01-01 23:03:34,467 - INFO - ---- Selected Role: Admin  -----
+2026-01-01 23:03:34,668 - INFO - ---- Clicked on Search Button -----

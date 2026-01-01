@@ -1,0 +1,32 @@
+2026-01-01 23:05:02,848 - INFO - ****** Starting Add Admin Test ******
+2026-01-01 23:05:02,848 - INFO - ****** Starting Add Admin Test ******
+2026-01-01 23:05:03,144 - INFO - ===Entering username: Admin===
+2026-01-01 23:05:03,144 - INFO - ===Entering username: Admin===
+2026-01-01 23:05:03,322 - INFO - ===Entering password===
+2026-01-01 23:05:03,322 - INFO - ===Entering password===
+2026-01-01 23:05:03,528 - INFO - ===Clicked login===
+2026-01-01 23:05:03,528 - INFO - ===Clicked login===
+2026-01-01 23:05:16,404 - INFO - ===Navigated to Admin===
+2026-01-01 23:05:16,404 - INFO - ===Navigated to Admin===
+2026-01-01 23:05:19,175 - INFO - ===Clicked Add button===
+2026-01-01 23:05:19,175 - INFO - ===Clicked Add button===
+2026-01-01 23:05:24,762 - INFO - ===All fields entered successfully===
+2026-01-01 23:05:24,762 - INFO - ===All fields entered successfully===
+2026-01-01 23:05:56,507 - INFO - === Test Passed ===
+2026-01-01 23:05:56,507 - INFO - === Test Passed ===
+2026-01-01 23:07:49,801 - INFO - ****** Starting Add Admin Test ******
+2026-01-01 23:07:49,801 - INFO - ****** Starting Add Admin Test ******
+2026-01-01 23:07:49,991 - INFO - ===Entering username: Admin===
+2026-01-01 23:07:49,991 - INFO - ===Entering username: Admin===
+2026-01-01 23:07:50,176 - INFO - ===Entering password===
+2026-01-01 23:07:50,176 - INFO - ===Entering password===
+2026-01-01 23:07:50,349 - INFO - ===Clicked login===
+2026-01-01 23:07:50,349 - INFO - ===Clicked login===
+2026-01-01 23:08:01,394 - INFO - ===Navigated to Admin===
+2026-01-01 23:08:01,394 - INFO - ===Navigated to Admin===
+2026-01-01 23:08:03,738 - INFO - ===Clicked Add button===
+2026-01-01 23:08:03,738 - INFO - ===Clicked Add button===
+2026-01-01 23:08:09,021 - INFO - ===All fields entered successfully===
+2026-01-01 23:08:09,021 - INFO - ===All fields entered successfully===
+2026-01-01 23:08:40,466 - INFO - === Test Passed ===
+2026-01-01 23:08:40,466 - INFO - === Test Passed ===

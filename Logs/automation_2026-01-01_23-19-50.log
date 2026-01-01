@@ -1,0 +1,10 @@
+2026-01-01 23:19:50,699 - INFO - Setup initialized for DDT login test
+2026-01-01 23:19:50,700 - INFO - Login DDT test case started
+2026-01-01 23:19:50,833 - INFO - Entering username: admin
+2026-01-01 23:19:50,974 - INFO - Entering password
+2026-01-01 23:19:51,138 - INFO - Clicked Login button successfully
+2026-01-01 23:20:18,780 - INFO - Setup initialized for DDT login test
+2026-01-01 23:20:18,781 - INFO - Login DDT test case started
+2026-01-01 23:20:18,926 - INFO - Entering username: test_user
+2026-01-01 23:20:19,070 - INFO - Entering password
+2026-01-01 23:20:19,230 - INFO - Clicked Login button successfully
