@@ -6,6 +6,7 @@ from selenium import webdriver  # Selenium WebDriver
 import configparser  # To read configuration from .ini files
 
 
+
 # ================================
 # PyTest fixture to setup Selenium WebDriver
 # ================================
